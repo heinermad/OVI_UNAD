@@ -1,0 +1,70 @@
+#cuerpo{
+	width:90%;
+	margin:15px auto;
+	font-family: Helvetica, arial;	
+}
+nav{
+	border:1px solid BLACK;
+	border-radius:10px;
+	box-shadow: 5px 5px 5px black;
+	background-color: #F0B429; /* For browsers that do not support gradients */
+    padding:5px 15px;
+}
+h2{
+	color:white;
+}
+article	{
+color:white;
+margin-right: 30 px;
+margin-left: 30 px;
+}
+nav ul li{
+	display:inline-block;
+	padding:20px 20px;
+	font:bold 14px verdana,sans-serif;
+	position: relative;
+    top: auto; 
+    left: 25%;
+}
+nav ul li a{
+	color:#fff;
+	text-decoration:none;
+	cursor: pointer;
+}
+.contenido article p{
+	font-size: 140%;
+    text-align:justify;
+}
+.twitter-timeline{
+	height:210px;
+	width:210;
+}	
+.contenido article{
+	width:60%;
+	padding:40px;
+	background-color: #005883;
+    border:1px solid BLACK;
+	border-radius:10px;
+	margin-top: 15px;
+	float: right;
+}	
+aside {
+	margin-top: 15px;
+	width:30%;
+	height:10%;
+}
+.visitas{
+	background-color:#F47920;
+	border:1px solid #005883;
+	border-radius:10px;
+}
+.cuerpo footer{
+	width:97%;
+	height:30%;
+	clear: both;
+	text-align: center;
+	border:10px solid #F47920;
+	COLOR:#005883;
+	padding:10px;
+	border-radius:10px;
+}
