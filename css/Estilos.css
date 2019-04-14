@@ -20,7 +20,7 @@ margin-left: 30 px;
 }
 nav ul li{
 	display:inline-block;
-	padding:20px 20px;
+	padding:30px 30px;
 	font:bold 14px verdana,sans-serif;
 	position: relative;
     top: auto; 
@@ -30,24 +30,31 @@ nav ul li a{
 	color:#fff;
 	text-decoration:none;
 	cursor: pointer;
+	
 }
 nav ul li ul{
 	display:none;
 	position:absolute;
-	min-width:340 px;
 	margin-right:0px;
 	
-  
-}
-nav ul li ul  a{
-	background-color:#F47920;
-	padding-bottom:40px;
 	
+}
+nav ul li ul li{
+	background-color:#F0BB10;
+	font-size:80%;
+	width:80%;
+	border-radius:10px;
+	padding:20px;
+	border:1px solid BLACK;
+		
+	}
+nav ul li ul  a{
+	padding-bottom:40px;
+
 }
 nav li:hover > ul{
-	
 	display: block;
-	text-align: center;
+	
 	 
 }
 
@@ -80,7 +87,7 @@ aside {
 }
 .cuerpo footer{
 	width:97%;
-	height:30%;
+	height:auto;
 	clear: both;
 	text-align: center;
 	border:10px solid #F47920;
